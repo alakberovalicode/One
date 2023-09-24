@@ -452,7 +452,55 @@ header .box nav a:hover {
     color: #ffffff;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
+  #services {
+    padding: 50px;
+  }
+  #services h1 {
+    font-size: 50px;
+    margin: 0 0 5px 10px;
+    font-weight: 700;
+  }
+  #services h2 {
+    margin: 20px 0 0 10px;
+    font-size: 20px;
+  }
+  #services .box {
+    margin: 50px 0px 4px 55px;
+    font-size: 60px;
+    width: 140px;
+    height: 140px;
+    border-radius: 90px;
+    background-color: #ffc800;
+    padding: 35px 0 0 30px;
+    color: #ffffff;
+  }
+  #services .textbox {
+    padding: 5px;
+  }
+  #services .textbox h1 {
+    font-size: 10px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    margin: 0 0px 0 0px;
+  }
+  #services .textbox h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0 10px 0px;
+  }
+  #services .box1 {
+    margin: 50px 0 0 50px;
+    font-size: 60px;
+    width: 140px;
+    height: 140px;
+    border-radius: 90px;
+    background-color: #ffc800;
+    padding: 35px 0 0 45px;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 935px) {
   #services {
     padding: 50px;
   }
@@ -500,58 +548,7 @@ header .box nav a:hover {
     color: #ffffff;
   }
 }
-@media screen and (max-width: 770px) {
-  #services {
-    display: flex;
-    flex-flow: wrap columu;
-    align-content: center;
-  }
-  #services h1 {
-    font-size: 50px;
-    margin: 0 20px 5px 0px;
-    font-weight: 700;
-  }
-  #services h2 {
-    margin: 20px 20px 0 0px;
-    font-size: 20px;
-  }
-  #services .box {
-    margin: 30px 0px 10px 150px;
-    font-size: 90px;
-    width: 170px;
-    height: 170px;
-    border-radius: 90px;
-    background-color: #ffc800;
-    padding: 35px 0 0 30px;
-    color: #ffffff;
-  }
-  #services .textbox {
-    padding: 5px;
-    margin: 10px 0 5px 40px;
-  }
-  #services .textbox h1 {
-    font-size: 10px;
-    margin-bottom: 10px;
-    line-height: 1.6;
-    margin: 10px 80px 0 0px;
-  }
-  #services .textbox h2 {
-    font-size: 20px;
-    font-weight: 700;
-    margin: 10px 80px 10px 0px;
-  }
-  #services .box1 {
-    margin: 30px 0 10px 150px;
-    font-size: 90px;
-    width: 170px;
-    height: 170px;
-    border-radius: 90px;
-    background-color: #ffc800;
-    padding: 35px 0 0 45px;
-    color: #ffffff;
-  }
-}
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 765px) {
   #services {
     display: flex;
     flex-flow: wrap columu;
@@ -567,7 +564,7 @@ header .box nav a:hover {
     font-size: 20px;
   }
   #services .box {
-    margin: 30px 0px 10px 100px;
+    margin: 30px 0px 10px 170px;
     font-size: 90px;
     width: 170px;
     height: 170px;
@@ -592,7 +589,7 @@ header .box nav a:hover {
     margin: 10px 50px 10px 0px;
   }
   #services .box1 {
-    margin: 30px 0 10px 100px;
+    margin: 30px 0 10px 170px;
     font-size: 90px;
     width: 170px;
     height: 170px;
@@ -602,7 +599,7 @@ header .box nav a:hover {
     color: #ffffff;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 625px) {
   #services {
     display: flex;
     flex-flow: wrap columu;
@@ -610,21 +607,21 @@ header .box nav a:hover {
   }
   #services h1 {
     font-size: 50px;
-    margin: 0 0 5px 0px;
+    margin: 0 0 5px 50px;
     font-weight: 700;
   }
   #services h2 {
-    margin: 20px 0 0 0px;
+    margin: 20px 0 0 50px;
     font-size: 20px;
   }
   #services .box {
-    margin: 50px 0px 10px 90px;
+    margin: 50px 0px 10px 160px;
     font-size: 70px;
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     border-radius: 90px;
     background-color: #ffc800;
-    padding: 35px 0 0 30px;
+    padding: 45px 0 0 40px;
     color: #ffffff;
   }
   #services .textbox {
@@ -635,25 +632,25 @@ header .box nav a:hover {
     font-size: 10px;
     margin-bottom: 10px;
     line-height: 1.6;
-    margin: 10px 30px 0 0px;
+    margin: 10px 0px 0 0px;
   }
   #services .textbox h2 {
     font-size: 20px;
     font-weight: 700;
-    margin: 10px 30px 10px 0px;
+    margin: 10px 0px 10px 0px;
   }
   #services .box1 {
-    margin: 50px 0 10px 90px;
+    margin: 50px 0 10px 170px;
     font-size: 70px;
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     border-radius: 90px;
     background-color: #ffc800;
-    padding: 35px 0 0 45px;
+    padding: 45px 0 0 50px;
     color: #ffffff;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 560px) {
   #services {
     display: flex;
     flex-flow: wrap columu;
@@ -669,7 +666,7 @@ header .box nav a:hover {
     font-size: 20px;
   }
   #services .box {
-    margin: 50px 0px 10px 30px;
+    margin: 50px 0px 10px 140px;
     font-size: 70px;
     width: 150px;
     height: 150px;
@@ -694,7 +691,7 @@ header .box nav a:hover {
     margin: 10px 30px 10px 0px;
   }
   #services .box1 {
-    margin: 50px 0 10px 30px;
+    margin: 50px 0 10px 140px;
     font-size: 70px;
     width: 150px;
     height: 150px;
@@ -925,32 +922,41 @@ header .box nav a:hover {
   text-align: right;
 }
 #about .textbox h3 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
+  margin: 0 120px 0 0;
 }
 #about .textbox h4 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
-  margin: 10px 0px 0 0px;
+  margin: 10px 120px 0 0px;
 }
 #about .textbox h5 {
   font-size: 25px;
   line-height: 1.5;
-  margin: 10px 0px 0 200px;
+  margin: 10px 120px 0 0px;
 }
 #about .box1 {
-  margin: 0 0px 0 0;
+  position: relative;
 }
 #about .box1 .imgbox {
+  position: absolute;
+  top: 20px;
+  left: -100px;
+  z-index: -1;
   overflow: hidden;
   border-radius: 100px;
   width: 200px;
   border: 7px solid #e9ecef;
 }
 #about .box2 {
-  margin: 200px 0 0 660px;
+  position: relative;
 }
 #about .box2 .imgbox {
+  position: absolute;
+  top: 150px;
+  right: -125px;
+  z-index: -1;
   overflow: hidden;
   width: 200px;
   border: 7px solid #e9ecef;
@@ -958,83 +964,92 @@ header .box nav a:hover {
 }
 #about .textbox1 {
   text-align: left;
-  margin: 180px 0 0 0;
+  margin: 130px 0 0 0;
 }
 #about .textbox1 h3 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
-  margin: 40px 0px 0 250px;
+  margin: 0px 0px 0px 150px;
 }
 #about .textbox1 h4 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
-  margin: 10px 0px 0 250px;
+  margin: 10px 0px 0px 150px;
 }
 #about .textbox1 h5 {
   font-size: 25px;
   line-height: 1.5;
-  margin: 10px 0px 0 250px;
+  margin: 10px 0px 0px 150px;
 }
 #about .textbox2 {
   text-align: right;
   margin: 150px 0 0 0;
 }
 #about .textbox2 h3 {
-  margin: 50px 0px 10px 100px;
-  font-size: 45px;
+  margin: 0px 120px 10px 0px;
+  font-size: 35px;
   font-weight: 700;
 }
 #about .textbox2 h4 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
-  margin: 10px 10px 20px 100px;
+  margin: 10px 120px 20px 0px;
 }
 #about .textbox2 h5 {
   text-align: right;
   font-size: 25px;
-  margin: 10px 10px 0 200px;
+  margin: 10px 120px 0 0px;
   line-height: 1.5;
 }
 #about .box3 {
-  margin: 150px 0 0 0px;
+  position: relative;
 }
 #about .box3 .imgbox {
+  position: absolute;
+  top: 170px;
+  left: -100px;
+  z-index: -1;
   overflow: hidden;
   width: 200px;
   border: 7px solid #e9ecef;
   border-radius: 100px;
 }
 #about .box4 {
-  margin: 250px 0 0 650px;
+  position: relative;
 }
 #about .box4 .imgbox {
+  position: absolute;
+  top: 150px;
+  right: -130px;
+  z-index: -1;
   overflow: hidden;
   width: 200px;
   border: 7px solid #e9ecef;
   border-radius: 100px;
 }
-#about .textbox3 {
-  text-align: left;
-}
 #about .textbox3 h3 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
-  margin: 250px 0px 0 230px;
+  margin: 140px 0px 0 150px;
 }
 #about .textbox3 h4 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
-  margin: 10px 0px 0 230px;
+  margin: 10px 0px 0 150px;
 }
 #about .textbox3 h5 {
   font-size: 25px;
   line-height: 1.5;
-  margin: 10px 0px 0 230px;
+  margin: 10px 0px 0 150px;
 }
 #about .box5 {
-  margin: 150px 0 0 650px;
+  position: relative;
 }
 #about .box5 .minibox {
+  position: absolute;
+  top: 140px;
+  right: -125px;
+  z-index: -1;
   width: 200px;
   height: 200px;
   border: 7px solid #e9ecef;
@@ -1068,32 +1083,41 @@ header .box nav a:hover {
     text-align: right;
   }
   #about .textbox h3 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
+    margin: 0 120px 0 0;
   }
   #about .textbox h4 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
-    margin: 10px 0px 0 0px;
+    margin: 10px 120px 0 0px;
   }
   #about .textbox h5 {
     font-size: 25px;
     line-height: 1.5;
-    margin: 10px 0px 0 200px;
+    margin: 10px 120px 0 0px;
   }
   #about .box1 {
-    margin: 0 0px 0 0;
+    position: relative;
   }
   #about .box1 .imgbox {
+    position: absolute;
+    top: 20px;
+    left: -100px;
+    z-index: -1;
     overflow: hidden;
     border-radius: 100px;
     width: 200px;
     border: 7px solid #e9ecef;
   }
   #about .box2 {
-    margin: 200px 0 0 580px;
+    position: relative;
   }
   #about .box2 .imgbox {
+    position: absolute;
+    top: 150px;
+    right: -125px;
+    z-index: -1;
     overflow: hidden;
     width: 200px;
     border: 7px solid #e9ecef;
@@ -1101,83 +1125,91 @@ header .box nav a:hover {
   }
   #about .textbox1 {
     text-align: left;
-    margin: 180px 0 0 0;
   }
   #about .textbox1 h3 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
-    margin: 40px 0px 0 250px;
+    margin: 60px 0px 0px 150px;
   }
   #about .textbox1 h4 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
-    margin: 10px 0px 0 250px;
+    margin: 10px 0px 0px 150px;
   }
   #about .textbox1 h5 {
     font-size: 25px;
     line-height: 1.5;
-    margin: 10px 0px 0 250px;
+    margin: 10px 0px 0px 150px;
   }
   #about .textbox2 {
     text-align: right;
     margin: 150px 0 0 0;
   }
   #about .textbox2 h3 {
-    margin: 50px 0px 10px 100px;
-    font-size: 45px;
+    margin: 0px 120px 10px 0px;
+    font-size: 35px;
     font-weight: 700;
   }
   #about .textbox2 h4 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
-    margin: 10px 10px 20px 100px;
+    margin: 10px 120px 20px 0px;
   }
   #about .textbox2 h5 {
     text-align: right;
     font-size: 25px;
-    margin: 10px 10px 0 200px;
+    margin: 10px 120px 0 0px;
     line-height: 1.5;
   }
   #about .box3 {
-    margin: 150px 0 0 0px;
+    position: relative;
   }
   #about .box3 .imgbox {
+    position: absolute;
+    top: 170px;
+    left: -100px;
+    z-index: -1;
     overflow: hidden;
     width: 200px;
     border: 7px solid #e9ecef;
     border-radius: 100px;
   }
   #about .box4 {
-    margin: 250px 0 0 580px;
+    position: relative;
   }
   #about .box4 .imgbox {
+    position: absolute;
+    top: 150px;
+    right: -130px;
+    z-index: -1;
     overflow: hidden;
     width: 200px;
     border: 7px solid #e9ecef;
     border-radius: 100px;
   }
-  #about .textbox3 {
-    text-align: left;
-  }
   #about .textbox3 h3 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
-    margin: 250px 0px 0 230px;
+    margin: 140px 0px 0 150px;
   }
   #about .textbox3 h4 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
-    margin: 10px 0px 0 230px;
+    margin: 10px 0px 0 150px;
   }
   #about .textbox3 h5 {
     font-size: 25px;
     line-height: 1.5;
-    margin: 10px 0px 0 230px;
+    margin: 10px 0px 0 150px;
   }
   #about .box5 {
-    margin: 150px 0 0 580px;
+    position: relative;
   }
   #about .box5 .minibox {
+    position: absolute;
+    top: 140px;
+    right: -125px;
+    z-index: -1;
     width: 200px;
     height: 200px;
     border: 7px solid #e9ecef;
@@ -1185,306 +1217,17 @@ header .box nav a:hover {
     color: #ffffff;
     background-color: #ffc800;
   }
-  #about .box5 .minibox h3 {
+  #about .box5 h3 {
     margin: 40px 0 0 60px;
     font-size: 25px;
   }
-  #about .box5 .minibox h4 {
+  #about .box5 h4 {
     font-size: 25px;
     margin: 5px 0 0 65px;
   }
-  #about .box5 .minibox h5 {
+  #about .box5 h5 {
     font-size: 25px;
     margin: 5px 0 0 68px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  #about h1 {
-    font-size: 50px;
-    font-weight: 700;
-    margin: 10px 0 20px 0px;
-  }
-  #about h2 {
-    font-size: 20px;
-    margin: 10px 0 90px 0px;
-  }
-  #about .textbox {
-    text-align: right;
-  }
-  #about .textbox h3 {
-    font-size: 45px;
-    font-weight: 700;
-  }
-  #about .textbox h4 {
-    font-size: 45px;
-    font-weight: 700;
-    margin: 10px 0px 0 0px;
-  }
-  #about .textbox h5 {
-    font-size: 25px;
-    line-height: 1.5;
-    margin: 10px 0px 0 200px;
-  }
-  #about .box1 {
-    margin: 0 0px 0 0;
-  }
-  #about .box1 .imgbox {
-    overflow: hidden;
-    border-radius: 100px;
-    width: 200px;
-    border: 7px solid #e9ecef;
-  }
-  #about .box2 {
-    margin: 200px 0 0 480px;
-  }
-  #about .box2 .imgbox {
-    overflow: hidden;
-    width: 200px;
-    border: 7px solid #e9ecef;
-    border-radius: 100px;
-  }
-  #about .textbox1 {
-    text-align: left;
-    margin: 180px 0px 0 0;
-  }
-  #about .textbox1 h3 {
-    font-size: 45px;
-    font-weight: 700;
-    margin: 40px 0px 0 250px;
-  }
-  #about .textbox1 h4 {
-    font-size: 45px;
-    font-weight: 700;
-    margin: 10px 0px 0 250px;
-  }
-  #about .textbox1 h5 {
-    font-size: 25px;
-    line-height: 1.5;
-    margin: 10px 0px 0 250px;
-  }
-  #about .textbox2 {
-    text-align: right;
-    margin: 150px 0 0 0;
-  }
-  #about .textbox2 h3 {
-    margin: 50px 0px 10px 100px;
-    font-size: 45px;
-    font-weight: 700;
-  }
-  #about .textbox2 h4 {
-    font-size: 45px;
-    font-weight: 700;
-    margin: 10px 10px 20px 100px;
-  }
-  #about .textbox2 h5 {
-    text-align: right;
-    font-size: 25px;
-    margin: 10px 10px 0 200px;
-    line-height: 1.5;
-  }
-  #about .box3 {
-    margin: 150px 0 0 0px;
-  }
-  #about .box3 .imgbox {
-    overflow: hidden;
-    width: 200px;
-    border: 7px solid #e9ecef;
-    border-radius: 100px;
-  }
-  #about .box4 {
-    margin: 250px 0 0 480px;
-  }
-  #about .box4 .imgbox {
-    overflow: hidden;
-    width: 200px;
-    border: 7px solid #e9ecef;
-    border-radius: 100px;
-  }
-  #about .textbox3 {
-    text-align: left;
-  }
-  #about .textbox3 h3 {
-    font-size: 45px;
-    font-weight: 700;
-    margin: 250px 0px 0 230px;
-  }
-  #about .textbox3 h4 {
-    font-size: 45px;
-    font-weight: 700;
-    margin: 10px 0px 0 230px;
-  }
-  #about .textbox3 h5 {
-    font-size: 25px;
-    line-height: 1.5;
-    margin: 10px 0px 0 230px;
-  }
-  #about .box5 {
-    margin: 150px 0 0 500px;
-  }
-  #about .box5 .minibox {
-    width: 200px;
-    height: 200px;
-    border: 7px solid #e9ecef;
-    border-radius: 100px;
-    color: #ffffff;
-    background-color: #ffc800;
-  }
-  #about .box5 .minibox h3 {
-    margin: 40px 0 0 60px;
-    font-size: 25px;
-  }
-  #about .box5 .minibox h4 {
-    font-size: 25px;
-    margin: 5px 0 0 65px;
-  }
-  #about .box5 .minibox h5 {
-    font-size: 25px;
-    margin: 5px 0 0 68px;
-  }
-}
-@media screen and (max-width: 1150px) {
-  #about h1 {
-    font-size: 50px;
-    font-weight: 700;
-    margin: 10px 0 20px 0px;
-  }
-  #about h2 {
-    font-size: 20px;
-    margin: 10px 0 90px 0px;
-  }
-  #about .textbox h3 {
-    font-size: 25px;
-    font-weight: 700;
-  }
-  #about .textbox h4 {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 10px 0px 0 0px;
-  }
-  #about .textbox h5 {
-    font-size: 15px;
-    line-height: 1.5;
-    margin: 10px 0px 0 200px;
-  }
-  #about .box1 {
-    margin: 0 0px 0 0;
-    text-align: right;
-  }
-  #about .box1 .imgbox {
-    overflow: hidden;
-    border-radius: 100px;
-    width: 150px;
-    border: 7px solid #e9ecef;
-  }
-  #about .box2 {
-    margin: 100px 0 0 450px;
-    text-align: right;
-  }
-  #about .box2 .imgbox {
-    overflow: hidden;
-    width: 150px;
-    border: 7px solid #e9ecef;
-    border-radius: 100px;
-  }
-  #about .textbox1 {
-    text-align: left;
-    margin: 100px 0px 0 0;
-  }
-  #about .textbox1 h3 {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 40px 0px 0 170px;
-  }
-  #about .textbox1 h4 {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 10px 0px 0 170px;
-  }
-  #about .textbox1 h5 {
-    font-size: 15px;
-    line-height: 1.5;
-    margin: 10px 0px 0 170px;
-  }
-  #about .textbox2 {
-    text-align: right;
-    margin: 150px 0 0 0;
-  }
-  #about .textbox2 h3 {
-    margin: 50px 0px 10px 100px;
-    font-size: 25px;
-    font-weight: 700;
-  }
-  #about .textbox2 h4 {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 10px 10px 20px 100px;
-  }
-  #about .textbox2 h5 {
-    text-align: right;
-    font-size: 15px;
-    margin: 10px 10px 0 200px;
-    line-height: 1.5;
-  }
-  #about .box3 {
-    margin: 150px 0 0 0px;
-    text-align: right;
-  }
-  #about .box3 .imgbox {
-    overflow: hidden;
-    width: 150px;
-    border: 7px solid #e9ecef;
-    border-radius: 100px;
-  }
-  #about .box4 {
-    margin: 200px 0 0 450px;
-    text-align: right;
-  }
-  #about .box4 .imgbox {
-    overflow: hidden;
-    width: 150px;
-    border: 7px solid #e9ecef;
-    border-radius: 100px;
-  }
-  #about .textbox3 {
-    text-align: left;
-  }
-  #about .textbox3 h3 {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 200px 0px 0 200px;
-  }
-  #about .textbox3 h4 {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 10px 0px 0 200px;
-  }
-  #about .textbox3 h5 {
-    font-size: 15px;
-    line-height: 1.5;
-    margin: 10px 0px 0 200px;
-  }
-  #about .box5 {
-    margin: 150px 0 0 450px;
-  }
-  #about .box5 .minibox {
-    width: 150px;
-    height: 150px;
-    border: 7px solid #e9ecef;
-    border-radius: 100px;
-    color: #ffffff;
-    background-color: #ffc800;
-  }
-  #about .box5 .minibox h3 {
-    margin: 30px 0 0 30px;
-    font-size: 25px;
-  }
-  #about .box5 .minibox h4 {
-    font-size: 25px;
-    margin: 5px 0 0 35px;
-  }
-  #about .box5 .minibox h5 {
-    font-size: 25px;
-    margin: 5px 0 0 38px;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -1497,182 +1240,32 @@ header .box nav a:hover {
     font-size: 20px;
     margin: 10px 0 90px 0px;
   }
+  #about .textbox {
+    text-align: right;
+  }
   #about .textbox h3 {
     font-size: 25px;
     font-weight: 700;
+    margin: 20px 100px 0 0;
   }
   #about .textbox h4 {
     font-size: 25px;
     font-weight: 700;
-    margin: 10px 0px 0 0px;
+    margin: 10px 100px 0 0px;
   }
   #about .textbox h5 {
     font-size: 15px;
     line-height: 1.5;
-    margin: 10px 0px 0 200px;
+    margin: 10px 100px 0 0px;
   }
   #about .box1 {
-    margin: 0 0px 0px 0;
-    text-align: right;
-  }
-  #about .box1 .imgbox {
-    overflow: hidden;
-    border-radius: 100px;
-    width: 150px;
-    border: 7px solid #e9ecef;
-  }
-  #about .box2 {
-    margin: 100px 0 0 370px;
-    text-align: right;
-  }
-  #about .box2 .imgbox {
-    overflow: hidden;
-    width: 150px;
-    border: 7px solid #e9ecef;
-    border-radius: 100px;
-  }
-  #about .textbox1 {
-    text-align: left;
-    margin: 100px 0px 0 0;
-  }
-  #about .textbox1 h3 {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 40px 0px 0 170px;
-  }
-  #about .textbox1 h4 {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 10px 0px 0 170px;
-  }
-  #about .textbox1 h5 {
-    font-size: 15px;
-    line-height: 1.5;
-    margin: 10px 0px 0 170px;
-  }
-  #about .textbox2 {
-    text-align: right;
-    margin: 150px 0 0 0;
-  }
-  #about .textbox2 h3 {
-    margin: 50px 0px 10px 100px;
-    font-size: 25px;
-    font-weight: 700;
-  }
-  #about .textbox2 h4 {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 10px 10px 20px 100px;
-  }
-  #about .textbox2 h5 {
-    text-align: right;
-    font-size: 15px;
-    margin: 10px 10px 0 200px;
-    line-height: 1.5;
-  }
-  #about .box3 {
-    margin: 150px 0 0 0px;
-    text-align: right;
-  }
-  #about .box3 .imgbox {
-    overflow: hidden;
-    width: 150px;
-    border: 7px solid #e9ecef;
-    border-radius: 100px;
-  }
-  #about .box4 {
-    margin: 200px 0 0 380px;
-    text-align: right;
-  }
-  #about .box4 .imgbox {
-    overflow: hidden;
-    width: 150px;
-    border: 7px solid #e9ecef;
-    border-radius: 100px;
-  }
-  #about .textbox3 {
-    text-align: left;
-  }
-  #about .textbox3 h3 {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 200px 0px 0 200px;
-  }
-  #about .textbox3 h4 {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 10px 0px 0 200px;
-  }
-  #about .textbox3 h5 {
-    font-size: 15px;
-    line-height: 1.5;
-    margin: 10px 0px 0 200px;
-  }
-  #about .box5 {
-    margin: 150px 0 0 380px;
-  }
-  #about .box5 .minibox {
-    width: 150px;
-    height: 150px;
-    border: 7px solid #e9ecef;
-    border-radius: 100px;
-    color: #ffffff;
-    background-color: #ffc800;
-  }
-  #about .box5 .minibox h3 {
-    margin: 30px 0 0 30px;
-    font-size: 25px;
-  }
-  #about .box5 .minibox h4 {
-    font-size: 25px;
-    margin: 5px 0 0 35px;
-  }
-  #about .box5 .minibox h5 {
-    font-size: 25px;
-    margin: 5px 0 0 38px;
-  }
-}
-@media screen and (max-width: 780px) {
-  #about h1 {
-    font-size: 50px;
-    font-weight: 700;
-    margin: 10px 0 20px 0px;
-  }
-  #about h2 {
-    font-size: 20px;
-    margin: 10px 0 90px 0px;
-  }
-  #about .textbox {
     position: relative;
   }
-  #about .textbox h3 {
-    position: absolute;
-    top: 1px;
-    left: 190px;
-    font-size: 25px;
-    font-weight: 700;
-  }
-  #about .textbox h4 {
+  #about .box1 .imgbox {
     position: absolute;
     top: 20px;
-    right: -105px;
-    font-size: 25px;
-    font-weight: 700;
-  }
-  #about .textbox h5 {
-    position: absolute;
-    top: 90px;
-    left: 100px;
-    font-size: 15px;
-    line-height: 1.5;
-  }
-  #about .box1 {
-    position: relative;
-  }
-  #about .box1 .imgbox {
-    position: absolute;
-    top: 1px;
-    right: 470px;
+    left: -100px;
+    z-index: -1;
     overflow: hidden;
     border-radius: 100px;
     width: 100px;
@@ -1683,111 +1276,115 @@ header .box nav a:hover {
   }
   #about .box2 .imgbox {
     position: absolute;
-    top: 150px;
-    right: 220px;
+    top: 70px;
+    right: -25px;
+    z-index: -1;
     overflow: hidden;
-    width: 150px;
+    width: 100px;
     border: 7px solid #e9ecef;
     border-radius: 100px;
-  }
-  #about .textbox1 {
-    margin: 800px 0px 0 0;
   }
   #about .textbox1 h3 {
     font-size: 25px;
     font-weight: 700;
-    margin: 40px 0px 0 170px;
+    margin: 60px 0px 0px 20px;
   }
   #about .textbox1 h4 {
     font-size: 25px;
     font-weight: 700;
-    margin: 10px 0px 0 170px;
+    margin: 10px 0px 0px 20px;
   }
   #about .textbox1 h5 {
     font-size: 15px;
     line-height: 1.5;
-    margin: 10px 0px 0 170px;
+    margin: 10px 90px 0px 20px;
   }
   #about .textbox2 {
     text-align: right;
-    margin: 150px 0 0 0;
   }
   #about .textbox2 h3 {
-    margin: 50px 0px 10px 100px;
+    margin: 50px 100px 10px 0px;
     font-size: 25px;
     font-weight: 700;
   }
   #about .textbox2 h4 {
     font-size: 25px;
     font-weight: 700;
-    margin: 10px 10px 20px 100px;
+    margin: 10px 100px 10px 0px;
   }
   #about .textbox2 h5 {
     text-align: right;
     font-size: 15px;
-    margin: 10px 10px 0 200px;
+    margin: 10px 100px 0 0px;
     line-height: 1.5;
   }
   #about .box3 {
-    margin: 150px 0 0 0px;
-    text-align: right;
+    position: relative;
   }
   #about .box3 .imgbox {
+    position: absolute;
+    top: 70px;
+    left: -100px;
+    z-index: -1;
     overflow: hidden;
-    width: 150px;
+    width: 100px;
     border: 7px solid #e9ecef;
     border-radius: 100px;
   }
   #about .box4 {
-    margin: 200px 0 0 380px;
-    text-align: right;
+    position: relative;
   }
   #about .box4 .imgbox {
+    position: absolute;
+    top: 80px;
+    right: -30px;
+    z-index: -1;
     overflow: hidden;
-    width: 150px;
+    width: 100px;
     border: 7px solid #e9ecef;
     border-radius: 100px;
-  }
-  #about .textbox3 {
-    text-align: left;
   }
   #about .textbox3 h3 {
     font-size: 25px;
     font-weight: 700;
-    margin: 200px 0px 0 200px;
+    margin: 70px 0px 0 30px;
   }
   #about .textbox3 h4 {
     font-size: 25px;
     font-weight: 700;
-    margin: 10px 0px 0 200px;
+    margin: 10px 0px 0 30px;
   }
   #about .textbox3 h5 {
     font-size: 15px;
     line-height: 1.5;
-    margin: 10px 0px 0 200px;
+    margin: 10px 60px 0 30px;
   }
   #about .box5 {
-    margin: 150px 0 0 380px;
+    position: relative;
   }
   #about .box5 .minibox {
-    width: 150px;
-    height: 150px;
+    position: absolute;
+    top: 100px;
+    right: -35px;
+    z-index: -1;
+    width: 100px;
+    height: 100px;
     border: 7px solid #e9ecef;
     border-radius: 100px;
     color: #ffffff;
     background-color: #ffc800;
   }
   #about .box5 .minibox h3 {
-    margin: 30px 0 0 30px;
-    font-size: 25px;
+    margin: 20px 0 0 20px;
+    font-size: 15px;
   }
   #about .box5 .minibox h4 {
-    font-size: 25px;
-    margin: 5px 0 0 35px;
+    font-size: 15px;
+    margin: 5px 0 0 20px;
   }
   #about .box5 .minibox h5 {
-    font-size: 25px;
-    margin: 5px 0 0 38px;
+    font-size: 15px;
+    margin: 5px 0 0 25px;
   }
 }
 
