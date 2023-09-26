@@ -91,15 +91,27 @@ header
             top: 0
             left: 0
             .imgbox
-                width: 150px
+                width: 130px
                 margin: 15px 20px 0 30px
             nav
                 position: absolute
                 top: 20px
-                right: 2px
+                center: 20px
                 a
                     margin-right: 5px
-                    font-size: 5px
+                    font-size: 15px
                     color: #ffffff
                     &:hover
-                        color: #ffc800  
+                        color: #ffc800 
+    @media screen and (max-width:  500px)
+        .box
+            nav
+                position: absolute
+                top: 20px
+                left: 175px
+                a
+                    margin-right: 5px
+                    font-size: 13px
+                    color: #ffffff
+                    &:hover
+                        color: #ffc800 

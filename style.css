@@ -130,17 +130,32 @@ header .box nav a:hover {
     left: 0;
   }
   header .box .imgbox {
-    width: 150px;
+    width: 130px;
     margin: 15px 20px 0 30px;
   }
   header .box nav {
     position: absolute;
     top: 20px;
-    right: 2px;
+    center: 20px;
   }
   header .box nav a {
     margin-right: 5px;
-    font-size: 5px;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  header .box nav a:hover {
+    color: #ffc800;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .box nav {
+    position: absolute;
+    top: 20px;
+    left: 175px;
+  }
+  header .box nav a {
+    margin-right: 5px;
+    font-size: 13px;
     color: #ffffff;
   }
   header .box nav a:hover {
@@ -418,7 +433,7 @@ header .box nav a:hover {
     font-size: 20px;
   }
   #services .box {
-    margin: 50px 100px 0 50px;
+    margin: 50px 0px 0 70px;
     font-size: 90px;
     width: 170px;
     height: 170px;
@@ -442,7 +457,29 @@ header .box nav a:hover {
     margin: 20px 60px 0px 0px;
   }
   #services .box1 {
-    margin: 50px 0 4px 50px;
+    margin: 50px 0 0px 70px;
+    font-size: 90px;
+    width: 170px;
+    height: 170px;
+    border-radius: 90px;
+    background-color: #ffc800;
+    padding: 35px 0 0 45px;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #services .box {
+    margin: 50px 0px 0 40px;
+    font-size: 90px;
+    width: 170px;
+    height: 170px;
+    border-radius: 90px;
+    background-color: #ffc800;
+    padding: 35px 0 0 30px;
+    color: #ffffff;
+  }
+  #services .box1 {
+    margin: 50px 0 0px 30px;
     font-size: 90px;
     width: 170px;
     height: 170px;
@@ -466,7 +503,7 @@ header .box nav a:hover {
     font-size: 20px;
   }
   #services .box {
-    margin: 50px 0px 4px 55px;
+    margin: 50px 0px 4px 75px;
     font-size: 60px;
     width: 140px;
     height: 140px;
@@ -490,7 +527,29 @@ header .box nav a:hover {
     margin: 10px 0 10px 0px;
   }
   #services .box1 {
-    margin: 50px 0 0 50px;
+    margin: 50px 0 0 75px;
+    font-size: 60px;
+    width: 140px;
+    height: 140px;
+    border-radius: 90px;
+    background-color: #ffc800;
+    padding: 35px 0 0 45px;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 990px) {
+  #services .box {
+    margin: 50px 0px 4px 45px;
+    font-size: 60px;
+    width: 140px;
+    height: 140px;
+    border-radius: 90px;
+    background-color: #ffc800;
+    padding: 35px 0 0 30px;
+    color: #ffffff;
+  }
+  #services .box1 {
+    margin: 50px 0 0 45px;
     font-size: 60px;
     width: 140px;
     height: 140px;
@@ -692,6 +751,33 @@ header .box nav a:hover {
   }
   #services .box1 {
     margin: 50px 0 10px 140px;
+    font-size: 70px;
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    background-color: #ffc800;
+    padding: 35px 0 0 45px;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 530px) {
+  #services {
+    position: relative;
+  }
+  #services .box {
+    position: absolute;
+    top: 50px;
+    center: 10px;
+    font-size: 70px;
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    background-color: #ffc800;
+    padding: 35px 0 0 30px;
+    color: #ffffff;
+  }
+  #services .box1 {
+    margin: 50px 0 10px 130px;
     font-size: 70px;
     width: 150px;
     height: 150px;
