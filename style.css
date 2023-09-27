@@ -762,11 +762,23 @@ header .box nav a:hover {
 }
 @media screen and (max-width: 530px) {
   #services {
+    display: flex;
+    flex-flow: wrap columu;
+    align-content: center;
     position: relative;
+  }
+  #services h1 {
+    font-size: 50px;
+    margin: 0 0 5px 0px;
+    font-weight: 700;
+  }
+  #services h2 {
+    margin: 20px 0 0 0px;
+    font-size: 20px;
   }
   #services .box {
     position: absolute;
-    top: 50px;
+    top: 150px;
     center: 10px;
     font-size: 70px;
     width: 150px;
@@ -785,6 +797,21 @@ header .box nav a:hover {
     background-color: #ffc800;
     padding: 35px 0 0 45px;
     color: #ffffff;
+  }
+  #services .textbox {
+    padding: 5px;
+    margin: 10px 0 5px 40px;
+  }
+  #services .textbox h1 {
+    font-size: 10px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    margin: 50px 30px 0 0px;
+  }
+  #services .textbox h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 30px 10px 0px;
   }
 }
 
