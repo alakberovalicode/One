@@ -15,70 +15,70 @@ a:hover {
 }
 
 header .box {
-  background-color: #212529;
+  position: relative;
+}
+header .box .menu {
   width: 100%;
   height: 90px;
+  background-color: #212529;
   position: fixed;
   top: 0;
   left: 0;
 }
 header .box .imgbox {
   width: 150px;
-  margin: 30px 50px 0 0px;
+  position: absolute;
+  top: 30px;
+  left: 130px;
 }
-header .box nav {
-  margin: 35px 0 0;
+header .box .box2 {
+  position: absolute;
+  top: 30px;
+  right: 40px;
 }
-header .box nav a {
+header .box .box2 a {
   margin-right: 30px;
   font-size: 20px;
   color: #ffffff;
 }
-header .box nav a:hover {
+header .box .box2 a:hover {
   color: #ffc800;
 }
-@media screen and (max-width: 1000px) {
-  header .box {
-    background-color: #212529;
-    width: 100%;
-    height: 90px;
-    border: 1px solid #212529;
-    position: fixed;
-    top: 0;
-    left: 0;
+@media screen and (max-width: 1005px) {
+  header nav {
+    display: none;
+    margin: 35px 0 0;
   }
-  header .box .imgbox {
-    width: 150px;
-    position: fixed;
-    top: 1px;
-    left: 60px;
-  }
-  header .box:hover {
-    background-color: #212529;
-    width: 100%;
-    height: 50%;
-    border: 1px solid #212529;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-  header .box:hover u {
-    position: relative;
-  }
-  header .box:hover u .box2 {
-    position: absolute;
-    top: 10px;
-    left: 100%;
-    z-index: -1;
-  }
-  header .box:hover u .box2 nav a {
+  header nav a {
+    margin-right: 30px;
     font-size: 20px;
     color: #ffffff;
   }
-  header .box:hover u .box2 nav a:hover {
+  header nav a:hover {
     color: #ffc800;
   }
-  header .box .minibox {
+}
+@media screen and (max-width: 1004px) {
+  header .box {
+    background-color: #212529;
+    width: 100%;
+    height: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  header nav {
+    display: block;
+  }
+  header nav a {
+    margin-right: 30px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  header nav a:hover {
+    color: #ffc800;
+  }
+  header .minibox {
     width: 110px;
     height: 50px;
     border: 2px solid #ffffff;
@@ -86,17 +86,19 @@ header .box nav a:hover {
     position: fixed;
     top: 20px;
     right: 90px;
+    right-font-size: 15px;
+    right-font-weight: 600;
+    right-color: #ffffff;
+    right-margin: 12px 0px 0 10px;
   }
-  header .box .minibox h1 {
-    font-size: 15px;
-    font-weight: 600;
-    color: #ffffff;
-    margin: 12px 0px 0 10px;
-  }
-  header .box .minibox i {
+  header .minibox i {
     font-size: 15px;
     color: #ffffff;
     margin: 12px 15px 0px 20px;
+  }
+  header .box .imgbox {
+    width: 150px;
+    margin-left: 0px;
   }
 }
 
