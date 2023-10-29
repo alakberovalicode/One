@@ -1,31 +1,31 @@
 header
     .box
+        width: 100%
+        height: 100px
+        background-color: #212529
+        border: 1px solid #212529
+        position: fixed
+        top: 0px
+        left: 0
         .menu
-            width: 100%
-            height: 100px
-            background-color: #212529
-            border: 1px solid #212529
-            position: fixed
-            top: 0px
-            left: 0
             .imgbox
-                width: 10%
-                margin: 30px 0 0 40px
+                width: 300px
+                margin: 30px 50px 0 0
             .bigbox
-                margin: 5px 0 50px 0
-                li
-                    display: inline-block
-                    margin: 
-                    font-size: 60px
-                    color: #ffffff
-                    &:hover
-                        color: #ffc800
+                font-size: 30px
+                margin-left: 30%
+                nav
+                    margin: 40px 0px 0 0px
+                    a
+                        margin: 0 10px
+                        color: #ffffff
+                        &:hover
+                            color: #ffc800
             .btn
-                display: none             
-    @media screen and (max-width: 1010px)
-        .bigbox
+                display: none
+    @media screen and (max-width: 1510px)
+        a
             display: none
-    @media screen and (max-width: 1009px)
         .btn
             position: fixed
             top: 15px
@@ -36,40 +36,41 @@ header
             border: 2px solid #ffffff
             width: 150px
             height: 50px
-        .menu
-            width: 100%
-            height: 100px
-            background-color: #212529
-            border: 1px solid #212529
-            position: fixed
-            top: 0px
-            left: 0
             &:hover
-                width: 100%
-                height: 30%
-                background-color: #212529
-                border: 1px solid #212529
-                .bigbox
-                    display: block
-                    position: absolute
-                    top: 100px
-                    left: 130px
-                    width: 100px
-                    height: 180px
-                    a
-                        margin: 20px 0 0 0
-                        font-size: 20px
-                        color: #ffffff
-                        &:hover
-                            color: #ffc800
-    @media screen and (max-width: 430px)
-        .btn
-            position: fixed
-            top: 10px
-            right: 15px
-            font-size: 20px
-            color: #ffffff
-            background-color: #212529
-            border: 2px solid #ffffff
-            width: 110px
-            height: 50px
+                .menu
+                    width: 100%
+                    height: 100px
+                    background-color: #212529
+                    border: 1px solid #212529
+                    position: fixed
+                    top: 0px
+                    left: 0
+                    &:hover
+                        width: 100%
+                        height: 30%
+                        background-color: #212529
+                        border: 1px solid #212529
+    //             .bigbox
+    //                 display: block
+    //                 position: absolute
+    //                 top: 100px
+    //                 left: 130px
+    //                 width: 100px
+    //                 height: 180px
+    //                 a
+    //                     margin: 20px 0 0 0
+    //                     font-size: 20px
+    //                     color: #ffffff
+    //                     &:hover
+    //                         color: #ffc800
+    // @media screen and (max-width: 430px)
+    //     .btn
+    //         position: fixed
+    //         top: 10px
+    //         right: 15px
+    //         font-size: 20px
+    //         color: #ffffff
+    //         background-color: #212529
+    //         border: 2px solid #ffffff
+    //         width: 110px
+    //         height: 50px
